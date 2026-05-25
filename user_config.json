@@ -1,0 +1,10 @@
+{
+    "company": "",
+    "user": "",
+    "password": "",
+    "url": "https://cloud.nueip.com/login",
+    "checkin_time": "09:00",
+    "checkout_time": "18:00",
+    "checkin_enabled": true,
+    "checkout_enabled": true
+}
