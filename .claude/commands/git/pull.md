@@ -5,6 +5,6 @@ Steps:
 2. Run `git pull origin main` to fetch and merge the latest remote changes.
 3. Report what files were updated (or "Already up to date." if nothing changed).
 
-Working directory: d:/ClaudeCode/Auto-Check-out-main
+Working directory: d:/Ray_CC_project/Auto Check out
 Remote: https://github.com/ak12459632/Auto-Check-out
 Branch: main

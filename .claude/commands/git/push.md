@@ -9,6 +9,6 @@ Steps:
 6. Push to origin main: `git push origin main`
 7. Report success with the commit hash and a link to the repo.
 
-Working directory: d:/ClaudeCode/Auto-Check-out-main
+Working directory: d:/Ray_CC_project/Auto Check out
 Remote: https://github.com/ak12459632/Auto-Check-out
 Branch: main
