@@ -1,6 +1,6 @@
-# NUEIP 自動打卡神器
+# 社畜神器
 
-針對 [NUEIP 雲端人資系統](https://cloud.nueip.com) 設計的自動打卡工具。  
+針對 [社畜系統](https://cloud.nueip.com) 設計的自動打卡工具。  
 使用 Selenium 自動開啟 Chrome、填入帳密、定時點擊打卡按鈕，支援上下班雙排程與前置測試驗證。
 
 ---

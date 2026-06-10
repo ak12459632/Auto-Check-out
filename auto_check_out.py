@@ -1,5 +1,5 @@
 """
-NUEIP 自動打卡神器 v5.1 (v1p2)
+社畜神器 v1.2
 修正項目：
   - 上班/下班按鈕 XPath 改用直接子節點標題定位，避免比對整棵子樹
     造成誤中公告區或其他含「上班」文字的元素
@@ -59,7 +59,7 @@ logger.addHandler(_fh)
 class NueipChromeClickerV5p1:
     def __init__(self, root):
         self.root = root
-        self.root.title("NUEIP 自動打卡神器 v5.1 (上下班雙排程)")
+        self.root.title("社畜神器 v1.2 (上下班雙排程)")
         self.root.geometry("680x960")
 
         self.is_running   = False
@@ -68,13 +68,13 @@ class NueipChromeClickerV5p1:
 
         self._build_ui()
         self.load_config()
-        self.log("程式啟動完成 (v1p2)")
+        self.log("程式啟動完成")
 
     # ── UI 建構 ────────────────────────────────────────────────────────
     def _build_ui(self):
         root = self.root
 
-        tk.Label(root, text="NUEIP 自動登入 & 打卡 v5.1",
+        tk.Label(root, text="社畜 v1.2",
                  font=("Arial", 16, "bold"), fg="#1a73e8").pack(pady=10)
 
         # ── 第一步：登入資訊 ──────────────────────────────────────────
